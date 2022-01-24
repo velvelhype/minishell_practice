@@ -1,0 +1,7 @@
+#include <stdio.h>
+
+int main(int argc, char **argv, char **env)
+{
+	for (int i; *env ; i++)
+	printf("%s\n", env[i]);
+}

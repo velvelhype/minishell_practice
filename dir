@@ -1,0 +1,10 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <dirent.h>
+#include <errno.h>
+#include <unistd.h>
+
+int main(int argc, char *argv[])
+{
+	chdir("/Users/kazukimori/Codes/minishell/JUNshell");
+}

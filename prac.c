@@ -2,12 +2,13 @@
 
 int main() {
     char* line;
+
     while (line = readline("microshell > ")) 
     { /* 行の読み取り */
         printf("Read '%s'\n", line);
         char *argv[3];
         extern char **environ;
-	    chdir("/Users/kazukimori/Codes/minishell/JUNshell");
+	    // chdir("/Users/kazukimori/Codes/minishell/JUNshell");
         printf("now we exec\n");
         argv[0] = "pwd";
         argv[1] = NULL;

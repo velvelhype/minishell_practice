@@ -1,0 +1,55 @@
+task_______
+
+リラックスしながら楽しくやるぞー
+
+logs_______
+
+飽きたからちょっとずつ実装し始めるか
+syamashiチュートリアルとかみて
+
+次何しようかなー
+まだまだ関数で遊びながらだな
+readlineやりながら色々動かすか
+
+手駒たち
+-readline系 入力まったり、ヒストリーのあれ作ったりする人たち
+rreadline, rl_clear_history, rl_on_new_line,
+rl_replace_line, rl_redisplay, add_history
+
+-open read　いつもの
+printf, malloc, free, write, access, open, read,
+close, exit
+
+-fork fam
+fork, wait, waitpid, wait3, wait4,
+
+-signal sigaction ミニシェルではいつ使うんじゃこれ？
+signal, sigaction, kill
+
+-stat ファイルの時間とかを教えてくれる
+
+-opendir readdir ファイル関係
+etcwd, chdir, stat,
+lstat, fstat, unlink=ファイル削除
+
+pipex組 あんまわかんないー　どうやってやんの
+-execve, dup, dup2, pipe
+
+エラー処理
+-strerror, perror,
+
+-getenv 環境変数でPATHだけとか　持ってきてくれる！　すごい
+
+-termcap系統　わがんね　使わんらしい、使いたくない
+isatty, ttyname, ttyslot, ioctl, getenv, tcsetattr,
+tcgetattr, tgetent, tgetflag, tgetnum, tgetstr,
+tgoto, tputs
+execve、相変わらずよくわからん・・・
+
+関数で遊び始めた
+stat関数
+chdir
+
+termcapわからん
+
+___________

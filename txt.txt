@@ -1,0 +1,11 @@
+42.c
+dire2.c
+error.c
+execve.c
+fork_execc.c
+getenv.c
+perror.c
+prac.c
+strerror.c
+tputs.c
+tsukuba_pipe.c

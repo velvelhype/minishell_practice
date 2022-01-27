@@ -29,7 +29,7 @@ int	main()
 			exit(1);
 		}
 		printf("in %d child %d exit : %d\n", getpid(),
-		 child, WEXITSTATUS(status));
+		child, WEXITSTATUS(status));
 	}
 }
 
